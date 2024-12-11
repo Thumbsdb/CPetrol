@@ -1,22 +1,20 @@
 #include <wx/wx.h>
 #include "MainFrame.h"
 
-class MyApp : public wxApp
-{
+class PetrolProgram : public wxApp {
 public:
 	bool OnInit() override;
 };
 
-bool MyApp::OnInit()
-{
-    MyFrame* frame = new MyFrame();
-    frame->Show();
+bool PetrolProgram::OnInit() {
+    MainFrame* mainFrame = new MainFrame("");
+    mainFrame->SetClientSize(800, 600);
+    mainFrame->Center();
+    mainFrame->Show();
     return true;
 }
 
-
-
-wxIMPLEMENT_APP(MyApp);
+wxIMPLEMENT_APP(PetrolProgram);
 
 
 
