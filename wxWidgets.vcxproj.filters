@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="wxWidgets.cpp">
+    <ClCompile Include="PetrolProgram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

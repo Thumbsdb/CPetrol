@@ -24,6 +24,7 @@
     <ProjectGuid>{bfc7dfd6-8890-486a-bd5d-ab0dc4e874d9}</ProjectGuid>
     <RootNamespace>wxWidgets</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>PetrolProgram</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -138,7 +139,7 @@
     <ClInclude Include="MainFrame.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="wxWidgets.cpp" />
+    <ClCompile Include="PetrolProgram.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="wxWidgets.rc" />
